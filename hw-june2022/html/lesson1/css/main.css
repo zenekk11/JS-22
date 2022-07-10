@@ -1,0 +1,21 @@
+h1 {
+    background: gray;
+    color: #123f48;
+    text-align: center;
+}
+
+p {
+    background: #4b4f4b;
+    color: white;
+}
+
+h2 {
+    background: #647564;
+    color: #1531c7;
+    text-align: center;
+}
+
+li {
+    background: #181717;
+    color: #b7b715;
+}

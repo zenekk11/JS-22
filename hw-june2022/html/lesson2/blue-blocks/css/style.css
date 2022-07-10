@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 630px;
+    max-height: 830px;
+    color: white;
+    background: white;
+    margin: 0 auto;
+
+}
+
+.box1 {
+    min-height: 200px;
+}
+
+.box2 {
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    column-gap: 10px;
+}
+
+.mbox {
+    width: 196px;
+    min-height: 200px;
+    background: #0a3980;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.box3 {
+    min-height: 400px;
+
+}
+
+.box1, .box3 {
+    width: 610px;
+    background: #074c80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+}
+

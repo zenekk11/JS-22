@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.cards3 {
+    width: 960px;
+    height: 480px;
+    background: #1cc1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 300px 70px 300px 70px;
+    margin: 0 auto;
+}
+
+.ads {
+    min-width: 480px;
+    min-height: 440px;
+    background: #1cc1c1;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 440px;
+    height: 120px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.icon {
+    width: 110px;
+    font-size: 45px;
+    color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    width: 330px;
+}
+
+h2 {
+    color: rgba(255, 140, 0, 0.64);
+    font-size: 21px;
+}
+
+p {
+    color: #504c4c;
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.target {
+    width: 951px;
+    height: 401px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box1, .box2, .box3 {
+    width: 280px;
+    height: 340px;
+    display: block;
+    text-align: center;
+    border: 2px solid #000000;
+    margin-top: 40px;
+}
+
+h2 {
+    margin-top: 100px;
+    color: rgb(58, 55, 55);
+}
+
+p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: silver;
+}
+
+input {
+    width: 180px;
+    height: 40px;
+    background: none;
+    margin-top: 20px;
+}
