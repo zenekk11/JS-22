@@ -1,0 +1,74 @@
+.ads {
+    width: 800px;
+    height: 700px;
+    border: 1px solid red;
+    background: rgba(119, 179, 184, 0.32);
+    margin: 0 auto;
+}
+
+.high {
+    width: 800px;
+    height: 300px;
+    background: rgba(4, 39, 52, 0.85);
+    position: absolute;
+    top: 100px;
+}
+
+.target {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #5b55a3;
+}
+
+.low {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bat {
+    width: 180px;
+    height: 40px;
+    background: rgba(4, 39, 52, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bat:hover {
+    background: silver;
+    cursor: pointer;
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: slategray;
+    font-size: 30px;
+}
+
+.icon > i {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
