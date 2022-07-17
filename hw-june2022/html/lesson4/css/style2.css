@@ -1,0 +1,145 @@
+.ads {
+    width: 100%;
+    height: 935px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.con_a {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.father {
+    max-width: 100%;
+    max-height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px 10px 10px;
+}
+
+.bcde {
+    width: 75%;
+}
+
+.con_f {
+    width: 25%;
+    border-radius: 10px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.con_b {
+    width: 100%;
+    height: 345px;
+    border-radius: 10px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cde {
+    width: 100%;
+    height: 345px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    column-gap: 10px;
+}
+
+.con_c, .con_d, .con_e {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .father {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 700px;
+    }
+
+    .bcde {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .con_b {
+        width: 100%;
+        height: 350px;
+    }
+
+    .cde {
+        width: 100%;
+        height: 175px;
+    }
+
+    .con_f {
+        width: 100%;
+        height: 175px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .father {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 700px;
+    }
+
+    .con_a {
+        background: blue;
+    }
+
+    .bcde {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .con_b {
+        width: 100%;
+        height: 350px;
+        background: #a9a914;
+    }
+
+    .cde {
+        width: 100%;
+        height: 175px;
+    }
+
+    .con_c, .con_d, .con_e {
+        background: darkgreen;
+    }
+
+    .con_f {
+        width: 100%;
+        height: 175px;
+        background: darkred;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+}
