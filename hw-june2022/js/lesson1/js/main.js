@@ -1,5 +1,3 @@
-"use strict"
-
 let str1 = 'hello';
 let str2 = 'owu';
 let str3 = 'com';
