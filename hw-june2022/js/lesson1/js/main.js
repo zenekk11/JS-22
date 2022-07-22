@@ -1,3 +1,5 @@
+"use strict"
+
 let str1 = 'hello';
 let str2 = 'owu';
 let str3 = 'com';
@@ -30,10 +32,9 @@ document.write(bool);
 
 
 let firstName = 'Zenovii';
-middleName = 'Bogdanovych';
-lastName = 'Kondzelko';
-space = ' ';
-person = firstName + space + middleName + space + lastName;
+let middleName = 'Bogdanovych';
+let lastName = 'Kondzelko';
+let person = firstName + space + middleName + space + lastName;
 console.log(person);
 document.write(person)
 
@@ -41,4 +42,4 @@ document.write(person)
 let a = 100;
 let b = '100';
 let c = true;
-console.log(typeof a, b, c);
+console.log(typeof a, typeof b, typeof c);
